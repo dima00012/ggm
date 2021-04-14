@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+
+.one{
+    background: url("../img/xF21D8r8b2-QeBZuPRpofg.jpeg") center / cover;
+    width: 100%;
+    height: 50vh;
+}
+
+.two{
+    background: url("../img/Forza-Horizon-4.png") center / cover;
+    width: 100%;
+    height: 50vh;
+}
+
+.three{
+    background: url("../img/5c1ce8356ea25-wallpaper-preview.jpg") center / cover;
+    width: 100%;
+    height: 50vh;
+}
+
+.carousel-item{
+    padding-top: 50px;
+}
+
+.img-group img:hover{
+    transform: scale(2);
+    transition: 0.5s;
+}
+
+.img-group img{
+    width: 100px;
+    transition: 0.5s;
+}
+
+
+footer{
+    background-color: rgb(46, 44, 44);
+    width: 100%;
+    height: 15vh;
+    display: flex;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    padding-top:30px;
+    font-size: 20px;
+}
+
+.icons{
+    text-align: center;
+    font-size: 25px;
+}
